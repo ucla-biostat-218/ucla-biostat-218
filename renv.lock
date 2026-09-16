@@ -3643,36 +3643,14 @@
       "Package": "xfun",
       "Version": "0.60",
       "Source": "Repository",
-      "Depends": [
-        "R (>= 3.2.0)"
-      ],
-      "Imports": [
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
         "grDevices",
         "stats",
         "tools"
       ],
-      "Suggests": [
-        "testit",
-        "parallel",
-        "codetools",
-        "methods",
-        "rstudioapi",
-        "tinytex (>=\n0.30)",
-        "mime",
-        "litedown (>= 0.6)",
-        "commonmark",
-        "knitr (>= 1.50)",
-        "remotes",
-        "pak",
-        "curl",
-        "xml2",
-        "jsonlite",
-        "magick",
-        "yaml",
-        "data.table",
-        "qs2"
-      ],
-      "Repository": "CRAN"
+      "Hash": "8304c2894061f6ae062996f09dd1528e"
     },
     "xml2": {
       "Package": "xml2",
